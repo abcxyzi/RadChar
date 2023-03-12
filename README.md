@@ -109,8 +109,8 @@ array([(    0, 0, 2, 1.40310293e-05, 1.39439383e-06, 2.16004340e-05,  13),
 
 Here, each label contains information about the corresponding radar waveform. The label fields are indexed in the following order:
 
-- `index` - a unique identifier
-- `signal_type` - signal type following an integer mapping (as shown below) 
+- `index` - a unique identifier for each waveform
+- `signal_type` - signal type following an integer mapping scheme (as shown below) 
 - `number_of_pulses` - number of pulses, in seconds
 - `pulse_width` - pulse width, in seconds
 - `time_delay` - pulse time delay, in seconds
@@ -122,7 +122,7 @@ Integer mapping of `signal_type`:
 ```python
 signal_type = {'coherent_pulse_train': 0, 
                'barker_code': 1, 
-               'polyphase_barker_code': 2
+               'polyphase_barker_code': 2,
                'frank_code': 3, 
                'linear_frequency_modulated': 4}
 ```
