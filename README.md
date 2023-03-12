@@ -127,13 +127,13 @@ signal_type = {'coherent_pulse_train': 0,
                'linear_frequency_modulated': 4}
 ```
 
-## Download Link
+## Download Links
 
 The RadChar datasets can be downloaded from the following links:
 
 - [`RadChar-Tiny`](https://cloudstor.aarnet.edu.au/) - approx. file size of 400 MB
 - [`RadChar-Small`](https://cloudstor.aarnet.edu.au/) - approx. file size of 4 GB
-- [`RadChar-Medium`](https://cloudstor.aarnet.edu.au/) - approx. file size of 8 GB
+- [`RadChar-Medium`](https://cloudstor.aarnet.edu.au/plus/s/jc5uJeL9nR9nbhm) - approx. file size of 8 GB
 - [`RadChar-Large`](https://cloudstor.aarnet.edu.au/) - approx. file size of 16 GB
 
 ## Citation
