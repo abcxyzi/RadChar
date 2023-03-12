@@ -121,10 +121,10 @@ Integer mapping of `signal_type`:
 
 ```python
 signal_type = {'coherent_pulse_train': 0, 
-			   'barker_code': 1, 
-			   'polyphase_barker_code': 2
-			   'frank_code': 3, 
-			   'linear_frequency_modulated': 4}
+               'barker_code': 1, 
+               'polyphase_barker_code': 2
+               'frank_code': 3, 
+               'linear_frequency_modulated': 4}
 ```
 
 ## Download Link
