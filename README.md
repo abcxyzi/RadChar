@@ -25,9 +25,9 @@ The radar signal types include:
 
 The radar signal parameters include:
 - Pulse width, sampled between uniform 10 to 16 µs;
-- Pulse repetition interval (PRI), sampled between uniform 17-23 µs;
+- Pulse repetition interval (PRI), sampled between uniform 17 to 23 µs;
 - Number of pulses, sampled between uniform range 2 to 6; and 
-- Pulse time delay, sampled between uniform range 1-10 µs.
+- Pulse time delay, sampled between uniform range 1 to 10 µs.
 
 ## Example Usage
 
