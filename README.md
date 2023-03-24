@@ -3,7 +3,7 @@
 
 RadChar is a synthetic radar signal dataset designed to facilitate the development of multi-task learning models. Unlike existing datasets that only provide labels for classification tasks, RadChar provides labels that support both classification and regression tasks in radar signal recognition. This makes it the first multi-task labelled dataset of its kind released to help the research community to advance machine learning for radar signal characterisation. This dataset is released to the public under the MIT License.
 
-> Huang, Zi, Akila Pemasiri, Simon Denman, Clinton Fookes, and Terrence Martin. "Multi-task Learning for Radar Signal Characterisation." In Proceedings of the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023), held in Rhodes Island, Greece, 2023 (expected).
+> Huang, Zi, Akila Pemasiri, Simon Denman, Clinton Fookes, and Terrence Martin. "Multi-task Learning for Radar Signal Characterisation." In Proceedings of the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023), held in Rhodes Island, Greece, 2023 (in review).
 
 ## Dataset Details
 
@@ -134,7 +134,7 @@ The RadChar datasets can be downloaded from the following links:
 - [`RadChar-Tiny`](https://radchar.s3.ap-southeast-2.amazonaws.com/RadChar-Tiny.h5) - approx. file size of 400 MB
 - [`RadChar-Small`](https://radchar.s3.ap-southeast-2.amazonaws.com/RadChar-Small.h5) - approx. file size of 4 GB
 - [`RadChar-Medium`](https://radchar.s3.ap-southeast-2.amazonaws.com/RadChar-Medium.h5) - approx. file size of 8 GB
-- [`RadChar-Large`](https://radchar.s3.ap-southeast-2.amazonaws.com/RadChar-Large.h5) - approx. file size of 16 GB
+- `RadChar-Large` - approx. file size of 16 GB (TBA)
 
 ## Citation
 
@@ -144,7 +144,7 @@ The RadChar dataset is published with the conference paper 'Multi-task Learning 
 @inproceedings{huang2023radchar,
   title={Multi-task Learning for Radar Signal Characterisation},
   author={Huang, Zi and Pemasiri, Akila and Denman, Simon and Fookes, Clinton and Martin, Terrence},
-  booktitle={Proceedings of the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023)},
+  booktitle={Proceedings of the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023) (in review)},
   year={2023},
   address={Rhodes Island, Greece},
 }
