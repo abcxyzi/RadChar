@@ -1,7 +1,8 @@
 
+
 # Radar Characterisation Dataset (RadChar)
 
-RadChar is a synthetic radar signal dataset designed to facilitate the development of multi-task learning models. Unlike existing datasets that only provide labels for classification tasks, RadChar provides labels that support both classification and regression tasks in radar signal recognition. This makes it the first multi-task labelled dataset of its kind released to help the research community to advance machine learning for radar signal characterisation. This dataset is released to the public under the MIT License.
+RadChar is a synthetic radar signal dataset designed to facilitate the development of multi-task learning models. Unlike existing datasets that only provide labels for classification tasks, RadChar provides labels that support both classification and regression tasks in radar signal recognition. This makes it the first multi-task labelled dataset of its kind released to help the research community to advance machine learning for radar signal characterisation. This dataset is released to the public under the MIT License. You can access the conference paper here: https://arxiv.org/abs/2306.13105
 
 > Huang, Zi, Akila Pemasiri, Simon Denman, Clinton Fookes, and Terrence Martin. "Multi-task Learning for Radar Signal Characterisation." In Proceedings of the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023), held in Rhodes Island, Greece, 2023 (in review).
 
@@ -11,7 +12,7 @@ RadChar contains pulsed radar signals at varying signal-to-noise ratios (SNRs) b
 
 - `RadChar-Tiny` contain 50 thousand radar waveforms;
 - `RadChar-Small` contain 500 thousand radar waveforms;
-- `RadChar-Medium` contains 1 million radar waveforms; and
+- `RadChar-Baseline` contains 1 million radar waveforms (used in the conference paper); and
 - `RadChar-Large` contains 2 million radar waveforms.
 
 Each dataset comprises a total of 5 radar signal types each covering 4 unique signal parameters. The sampling rate used in RadChar is 3.2 MHz. Each waveform in the dataset contains 512 complex, baseband IQ samples.
@@ -133,18 +134,18 @@ The RadChar datasets can be downloaded from the following links:
 
 - [`RadChar-Tiny`](https://radchar.s3.ap-southeast-2.amazonaws.com/RadChar-Tiny.h5) - approx. file size of 400 MB
 - [`RadChar-Small`](https://radchar.s3.ap-southeast-2.amazonaws.com/RadChar-Small.h5) - approx. file size of 4 GB
-- [`RadChar-Medium`](https://radchar.s3.ap-southeast-2.amazonaws.com/RadChar-Medium.h5) - approx. file size of 8 GB
+- [`RadChar-Baseline`](https://radchar.s3.ap-southeast-2.amazonaws.com/RadChar-Medium.h5) - approx. file size of 8 GB
 - `RadChar-Large` - approx. file size of 16 GB (TBA)
 
 ## Citation
 
-The RadChar dataset is published with the conference paper 'Multi-task Learning for Radar Signal Characterisation' for the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023). Please cite both the dataset and the conference paper if you find them helpful for your research.
+The RadChar dataset is published together with the conference paper titled [Multi-task Learning for Radar Signal Characterisation](https://arxiv.org/abs/2306.13105) at the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023). Please cite both the dataset and the conference paper if you find them helpful for your research.
 
 ```latex
 @inproceedings{huang2023radchar,
   title={Multi-task Learning for Radar Signal Characterisation},
   author={Huang, Zi and Pemasiri, Akila and Denman, Simon and Fookes, Clinton and Martin, Terrence},
-  booktitle={Proceedings of the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023) (in review)},
+  booktitle={Proceedings of the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023)},
   year={2023},
   address={Rhodes Island, Greece},
 }
