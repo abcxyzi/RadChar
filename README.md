@@ -4,14 +4,14 @@
 
 RadChar is a synthetic radar signal dataset designed to facilitate the development of multi-task learning models. Unlike existing datasets that only provide labels for classification tasks, RadChar provides labels that support both classification and regression tasks in radar signal recognition. This makes it the first multi-task labelled dataset of its kind released to help the research community to advance machine learning for radar signal characterisation. This dataset is released to the public under the MIT License. You can access the conference paper here: https://arxiv.org/abs/2306.13105
 
-> Huang, Zi, Akila Pemasiri, Simon Denman, Clinton Fookes, and Terrence Martin. "Multi-task Learning for Radar Signal Characterisation." In Proceedings of the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023), held in Rhodes Island, Greece, 2023.
+> Z. Huang, A. Pemasiri, S. Denman, C. Fookes and T. Martin, "Multi-Task Learning For Radar Signal Characterisation," 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW), Rhodes Island, Greece, 2023, pp. 1-5, doi: 10.1109/ICASSPW59220.2023.10193318.
 
 ## Dataset Details
 
 RadChar contains pulsed radar signals at varying signal-to-noise ratios (SNRs) between -20 to 20 dB. This repository provides four variants of the RadChar dataset, which include:
 
-- `RadChar-Tiny` contain 50 thousand radar waveforms;
-- `RadChar-Small` contain 500 thousand radar waveforms;
+- `RadChar-Tiny` contains 50 thousand radar waveforms;
+- `RadChar-Small` contains 500 thousand radar waveforms;
 - `RadChar-Baseline` contains 1 million radar waveforms (used in the conference paper); and
 - `RadChar-Large` contains 2 million radar waveforms.
 
@@ -142,11 +142,14 @@ The RadChar datasets can be downloaded from the following links:
 The RadChar dataset is published together with the conference paper titled [Multi-task Learning for Radar Signal Characterisation](https://arxiv.org/abs/2306.13105) at the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023). Please cite both the dataset and the conference paper if you find them helpful for your research.
 
 ```latex
-@inproceedings{huang2023radchar,
-  title={Multi-task Learning for Radar Signal Characterisation},
+@INPROCEEDINGS{10193318,
   author={Huang, Zi and Pemasiri, Akila and Denman, Simon and Fookes, Clinton and Martin, Terrence},
-  booktitle={Proceedings of the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023)},
+  booktitle={2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW)}, 
+  title={Multi-Task Learning For Radar Signal Characterisation}, 
   year={2023},
-  address={Rhodes Island, Greece},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/ICASSPW59220.2023.10193318}
 }
 ```
