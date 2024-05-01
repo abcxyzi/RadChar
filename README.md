@@ -2,7 +2,9 @@
 
 # Radar Characterisation Dataset (RadChar)
 
-RadChar is a synthetic radar signal dataset designed to facilitate the development of multi-task learning models. Unlike existing datasets that only provide labels for classification tasks, RadChar provides labels that support both classification and regression tasks in radar signal recognition. This makes it the first multi-task labelled dataset of its kind released to help the research community to advance machine learning for radar signal characterisation. This dataset is released to the public under the MIT License. You can access the conference paper here: https://arxiv.org/abs/2306.13105
+RadChar is a synthetic radar signal dataset designed to facilitate the development of multi-task learning models. Unlike existing datasets that only provide labels for classification tasks, RadChar provides labels that support both classification and regression tasks in radar signal recognition. This makes it the first multi-task labelled dataset of its kind released to help the research community to advance machine learning for radar signal characterisation. This dataset is released to the public under the MIT License. 
+
+You can access the most recent paper here (note, a minor change has been made to fix a typo found in Fig. 2, please refer to v2 as the latest paper version from arXiv 😊): https://arxiv.org/abs/2306.13105
 
 > Z. Huang, A. Pemasiri, S. Denman, C. Fookes and T. Martin, "Multi-Task Learning For Radar Signal Characterisation," 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW), Rhodes Island, Greece, 2023, pp. 1-5, doi: 10.1109/ICASSPW59220.2023.10193318.
 
