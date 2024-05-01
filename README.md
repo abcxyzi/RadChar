@@ -4,7 +4,7 @@
 
 RadChar is a synthetic radar signal dataset designed to facilitate the development of multi-task learning models. Unlike existing datasets that only provide labels for classification tasks, RadChar provides labels that support both classification and regression tasks in radar signal recognition. This makes it the first multi-task labelled dataset of its kind released to help the research community to advance machine learning for radar signal characterisation. This dataset is released to the public under the MIT License. 
 
-You can access the most recent paper here (note, a minor change has been made to fix a typo found in Fig. 2, please refer to v2 as the latest paper version from arXiv 😊): https://arxiv.org/abs/2306.13105
+You can access the most recent paper here (note, a minor change has been made to fix a typo found in Fig. 2, please refer to v2 as the latest paper version from arXiv 😊): [https://arxiv.org/abs/2306.13105v2](https://arxiv.org/abs/2306.13105v2)
 
 > Z. Huang, A. Pemasiri, S. Denman, C. Fookes and T. Martin, "Multi-Task Learning For Radar Signal Characterisation," 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW), Rhodes Island, Greece, 2023, pp. 1-5, doi: 10.1109/ICASSPW59220.2023.10193318.
 
@@ -141,7 +141,7 @@ The RadChar datasets can be downloaded from the following links:
 
 ## Citation
 
-The RadChar dataset is published together with the conference paper titled [Multi-task Learning for Radar Signal Characterisation](https://arxiv.org/abs/2306.13105) at the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023). Please cite both the dataset and the conference paper if you find them helpful for your research.
+The RadChar dataset is published together with the conference paper titled [Multi-task Learning for Radar Signal Characterisation](https://arxiv.org/abs/2306.13105v2) at the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023). Please cite both the dataset and the conference paper if you find them helpful for your research.
 
 ```latex
 @INPROCEEDINGS{10193318,
