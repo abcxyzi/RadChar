@@ -114,7 +114,7 @@ Here, each label contains information about the corresponding radar waveform. Th
 
 - `index` - a unique identifier for each waveform
 - `signal_type` - signal type following an integer mapping scheme (as shown below) 
-- `number_of_pulses` - number of pulses, in seconds
+- `number_of_pulses` - number of pulses, unitless
 - `pulse_width` - pulse width, in seconds
 - `time_delay` - pulse time delay, in seconds
 - `Pulse pulse_repetition_interval interval` PRI, in seconds
