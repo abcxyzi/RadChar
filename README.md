@@ -132,12 +132,14 @@ signal_type = {'coherent_pulse_train': 0,
 
 ## Download Links
 
-The official RadChar dataset can be downloaded from the [QUT Research Data Repository](https://data.researchdatafinder.qut.edu.au/dataset/radchar). The dataset contains the following variants (note, RadChar-Tiny is a subset of RadChar-Small, RadChar-Small is a subset of RadChar-Baseline etc.):
-
+The official RadChar dataset can be downloaded from the [QUT Research Data Repository](https://data.researchdatafinder.qut.edu.au/dataset/radchar). The dataset contains the following variants:
+ 
 - `RadChar-Tiny` - approx. file size of 400 MB
 - `RadChar-Small` - approx. file size of 4 GB
 - `RadChar-Baseline` - approx. file size of 8 GB
 - `RadChar-Large` - approx. file size of 16 GB
+
+> Note, RadChar-Tiny is a subset of RadChar-Small, RadChar-Small is a subset of RadChar-Baseline, etc. It is recommended a train-val-test split should be created from a single dataset, such as `RadChar-Baseline`.
 
 To extract and combine multiple parts of the dataset, for example:
 
@@ -147,7 +149,7 @@ radchar-medium.h5.tar.gz.part-1-of-2
 radchar-medium.h5.tar.gz.part-2-of-2
 ```
 
-Run the following commands:
+Run the following commands once the individual parts have been downloaded to a local directory:
 
 ```bash
 # Combine the individual parts into a single .tar.gz archive
