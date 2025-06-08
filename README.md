@@ -2,9 +2,9 @@
 
 # Radar Characterisation Dataset (RadChar)
 
-RadChar is a synthetic radar signal dataset designed to facilitate the development of multi-task learning models. Unlike existing datasets that only provide labels for classification tasks, RadChar provides labels that support both classification and regression tasks in radar signal recognition. This makes it the first multi-task labelled dataset of its kind released to help the research community to advance machine learning for radar signal characterisation. This dataset is released to the public under the MIT License. 
+RadChar is a synthetic radar signal dataset designed to facilitate the development of multi-task learning models. Unlike existing datasets that only provide labels for classification tasks, RadChar provides labels that support both classification and regression tasks in radar signal recognition. This makes it the first multi-task labelled dataset of its kind released to help the research community to advance machine learning for radar signal characterisation.
 
-You can access the most recent paper here (note, a minor change has been made to fix a typo found in Fig. 2, please refer to v2 as the latest paper version from arXiv 😊): [https://arxiv.org/abs/2306.13105v2](https://arxiv.org/abs/2306.13105v2)
+You can access the most recent paper here: [https://arxiv.org/abs/2306.13105](https://arxiv.org/abs/2306.13105)
 
 > Z. Huang, A. Pemasiri, S. Denman, C. Fookes and T. Martin, "Multi-Task Learning For Radar Signal Characterisation," 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW), Rhodes Island, Greece, 2023, pp. 1-5, doi: 10.1109/ICASSPW59220.2023.10193318.
 
@@ -132,12 +132,30 @@ signal_type = {'coherent_pulse_train': 0,
 
 ## Download Links
 
-The RadChar datasets can be downloaded from the following links:
+The official RadChar dataset can be downloaded from the [QUT Research Data Repository](https://data.researchdatafinder.qut.edu.au/dataset/radchar). The dataset contains the following variants (note, RadChar-Tiny is a subset of RadChar-Small, RadChar-Small is a subset of RadChar-Baseline etc.):
 
-- [`RadChar-Tiny`](https://radchar.s3.ap-southeast-2.amazonaws.com/RadChar-Tiny.h5) - approx. file size of 400 MB
-- [`RadChar-Small`](https://radchar.s3.ap-southeast-2.amazonaws.com/RadChar-Small.h5) - approx. file size of 4 GB
-- [`RadChar-Baseline`](https://radchar.s3.ap-southeast-2.amazonaws.com/RadChar-Medium.h5) - approx. file size of 8 GB
-- [`RadChar-Large`](https://radchar.s3.ap-southeast-2.amazonaws.com/RadChar-Large.h5) - approx. file size of 16 GB
+- `RadChar-Tiny` - approx. file size of 400 MB
+- `RadChar-Small` - approx. file size of 4 GB
+- `RadChar-Baseline` - approx. file size of 8 GB
+- `RadChar-Large` - approx. file size of 16 GB
+
+To extract and combine multiple parts of the dataset, for example:
+
+```bash
+# We want to combine these parts into a single file, e.g., radchar-medium.h5
+radchar-medium.h5.tar.gz.part-1-of-2
+radchar-medium.h5.tar.gz.part-2-of-2
+```
+
+Run the following commands:
+
+```bash
+# Combine the individual parts into a single .tar.gz archive
+cat radchar-medium.h5.tar.gz.part-* > radchar-medium.h5.tar.gz
+
+# Unpack the .tar.gz archive to retrieve the dataset
+tar -xzf radchar-medium.h5.tar.gz
+```
 
 ## Citation
 
