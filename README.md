@@ -136,8 +136,8 @@ The official RadChar dataset can be downloaded from the [QUT Research Data Repos
  
 - `RadChar-Tiny` - approx. file size of 400 MB
 - `RadChar-Small` - approx. file size of 4 GB
-- `RadChar-Baseline` - approx. file size of 8 GB
-- `RadChar-Large` - approx. file size of 16 GB
+- `RadChar-Baseline` - approx. file size of 8 GB (2 parts)
+- `RadChar-Large` - approx. file size of 16 GB (4 parts)
 
 > Note, RadChar-Tiny is a subset of RadChar-Small, RadChar-Small is a subset of RadChar-Baseline, etc. It is recommended a train-val-test split should be created from a single dataset, such as `RadChar-Baseline`.
 
