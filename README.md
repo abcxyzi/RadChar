@@ -6,13 +6,13 @@ RadChar is a synthetic radar signal dataset designed to facilitate the developme
 
 You can access the most recent paper 📄 here: [https://arxiv.org/abs/2306.13105](https://arxiv.org/abs/2306.13105)
 
-You can also check out our ICASSP 2023 presentation ▶️ here: https://youtu.be/NEsjRYZpJ-8?si=_dwVk4qUVoz0AAAr
+You can also check out our ICASSP 2023 presentation ▶️ here: https://youtu.be/NEsjRYZpJ-8
 
 > Z. Huang, A. Pemasiri, S. Denman, C. Fookes and T. Martin, "Multi-Task Learning For Radar Signal Characterisation," 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW), Rhodes Island, Greece, 2023, pp. 1-5, doi: 10.1109/ICASSPW59220.2023.10193318.
 
 ## Quick Links
 
-- [Dataset Details](#dataset-details)
+- [RadChar Details](#radchar-details)
 - [Example Usage](#example-usage)
 - [Mapping of Data Fields](#mapping-of-data-fields)
 - [Download Links](#download-links)
