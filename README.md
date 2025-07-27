@@ -1,4 +1,4 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2501.10407-b31b1b.svg)](https://arxiv.org/abs/2306.13105) [![Kaggle](https://img.shields.io/badge/Kaggle-RadChar-blue?logo=kaggle)](https://www.kaggle.com/datasets/abcxyzi/raddet-icassp-2025) [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![arXiv](https://img.shields.io/badge/arXiv-2501.10407-b31b1b.svg)](https://arxiv.org/abs/2306.13105) [![Kaggle](https://img.shields.io/badge/Kaggle-RadChar-blue?logo=kaggle)](https://www.kaggle.com/datasets/abcxyzi/radchar-icassp-2023) [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 # Radar Characterisation Dataset (RadChar)
 
@@ -18,7 +18,7 @@ You can also check out our ICASSP 2023 presentation ▶️ here: https://youtu.b
 - [Download Links](#download-links)
 - [Citation](#citation)
 
-## Dataset Details
+## RadChar Details
 
 RadChar contains pulsed radar signals at varying signal-to-noise ratios (SNRs) between -20 to 20 dB. This repository provides four variants of the RadChar dataset, which include:
 
@@ -42,7 +42,9 @@ Each dataset comprises a total of 5 radar signal types each covering 4 unique si
 - Pulse repetition interval (PRI), sampled between uniform range 17 to 23 µs; and
 - Pulse time delay, sampled between uniform range 1 to 10 µs.
 
-An example frame from RadChar:
+### RadChar Frame
+
+Visualisation of a frame from RadChar:
 
 ![RadChar Frame](Sample.png)
 
@@ -156,8 +158,6 @@ The official RadChar dataset can be downloaded from [Kaggle](https://www.kaggle.
 > Note, `RadChar-Tiny` is a subset of `RadChar-Small`, while `RadChar-Small` is a subset of `RadChar-Baseline`, etc. It is recommended a train-val-test split should be created from a single RadChar dataset (e.g., `RadChar-Baseline`) to support model development.
 
 ## Citation
-
-The RadChar dataset is published together with the conference paper titled [Multi-task Learning for Radar Signal Characterisation](https://arxiv.org/abs/2306.13105v2) at the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023). 
 
 💡 Please cite both the dataset and the conference paper if you find them helpful for your research. Cheers.
 
