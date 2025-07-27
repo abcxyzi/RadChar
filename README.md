@@ -29,14 +29,14 @@ RadChar contains pulsed radar signals at varying signal-to-noise ratios (SNRs) b
 
 Each dataset comprises a total of 5 radar signal types each covering 4 unique signal parameters. The sampling rate used in RadChar is 3.2 MHz. Each waveform in the dataset contains 512 complex, baseband IQ samples.
 
-The radar signal types include: 
+⚙️ The radar signal types include: 
 - Barker codes, up to a code length of 13;
 - Polyphase Barker codes, up to a code length of 13;
 - Frank codes, up to a code length of 16;
 - Linear frequency-modulated (LFM) pulses; and 
 - Coherent unmodulated pulse trains. 
 
-The radar signal parameters include:
+⚙️ The radar signal parameters include:
 - Number of pulses, sampled between uniform range 2 to 6; 
 - Pulse width, sampled between uniform range 10 to 16 µs;
 - Pulse repetition interval (PRI), sampled between uniform range 17 to 23 µs; and
@@ -44,7 +44,7 @@ The radar signal parameters include:
 
 An example frame from RadChar:
 
-![RadChar Frame](Samples.png)
+![RadChar Frame](Sample.png)
 
 ## Example Usage
 
