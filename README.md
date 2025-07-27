@@ -10,7 +10,7 @@ You can also check out our ICASSP 2023 presentation ▶️ here: https://youtu.b
 
 > Z. Huang, A. Pemasiri, S. Denman, C. Fookes and T. Martin, "Multi-Task Learning For Radar Signal Characterisation," 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW), Rhodes Island, Greece, 2023, pp. 1-5, doi: 10.1109/ICASSPW59220.2023.10193318.
 
-# Quick Links
+## Quick Links
 
 - [Dataset Details](#dataset-details)
 - [Example Usage](#example-usage)
@@ -41,6 +41,10 @@ The radar signal parameters include:
 - Pulse width, sampled between uniform range 10 to 16 µs;
 - Pulse repetition interval (PRI), sampled between uniform range 17 to 23 µs; and
 - Pulse time delay, sampled between uniform range 1 to 10 µs.
+
+An example frame from RadChar:
+
+![RadChar Frame](Samples.png)
 
 ## Example Usage
 
