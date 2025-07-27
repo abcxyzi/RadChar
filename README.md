@@ -1,12 +1,22 @@
-
+[![arXiv](https://img.shields.io/badge/arXiv-2501.10407-b31b1b.svg)](https://arxiv.org/abs/2306.13105) [![Kaggle](https://img.shields.io/badge/Kaggle-RadChar-blue?logo=kaggle)](https://www.kaggle.com/datasets/abcxyzi/raddet-icassp-2025) [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 # Radar Characterisation Dataset (RadChar)
 
 RadChar is a synthetic radar signal dataset designed to facilitate the development of multi-task learning models. Unlike existing datasets that only provide labels for classification tasks, RadChar provides labels that support both classification and regression tasks in radar signal recognition. This makes it the first multi-task labelled dataset of its kind released to help the research community to advance machine learning for radar signal characterisation.
 
-You can access the most recent paper here: [https://arxiv.org/abs/2306.13105](https://arxiv.org/abs/2306.13105)
+You can access the most recent paper 📄 here: [https://arxiv.org/abs/2306.13105](https://arxiv.org/abs/2306.13105)
+
+You can also check out our ICASSP 2023 presentation ▶️ here: https://youtu.be/NEsjRYZpJ-8?si=_dwVk4qUVoz0AAAr
 
 > Z. Huang, A. Pemasiri, S. Denman, C. Fookes and T. Martin, "Multi-Task Learning For Radar Signal Characterisation," 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW), Rhodes Island, Greece, 2023, pp. 1-5, doi: 10.1109/ICASSPW59220.2023.10193318.
+
+# Quick Links
+
+- [Dataset Details](#dataset-details)
+- [Example Usage](#example-usage)
+- [Mapping of Data Fields](#mapping-of-data-fields)
+- [Download Links](#download-links)
+- [Citation](#citation)
 
 ## Dataset Details
 
@@ -132,46 +142,29 @@ signal_type = {'coherent_pulse_train': 0,
 
 ## Download Links
 
-The official RadChar dataset can be downloaded from the [QUT Research Data Repository](https://data.researchdatafinder.qut.edu.au/dataset/radchar). The dataset contains the following variants:
+The official RadChar dataset can be downloaded from [Kaggle](https://www.kaggle.com/datasets/abcxyzi/radchar-icassp-2023). The dataset contains the following variants:
  
 - `RadChar-Tiny` - approx. file size of 400 MB
 - `RadChar-Small` - approx. file size of 4 GB
-- `RadChar-Baseline` - approx. file size of 8 GB (2 parts)
-- `RadChar-Large` - approx. file size of 16 GB (4 parts)
+- `RadChar-Baseline` - approx. file size of 8 GB
+- `RadChar-Large` - approx. file size of 16 GB
 
-> Note, RadChar-Tiny is a subset of RadChar-Small, RadChar-Small is a subset of RadChar-Baseline, etc. It is recommended a train-val-test split should be created from a single dataset, such as `RadChar-Baseline`.
-
-To extract and combine multiple parts of the dataset, for example:
-
-```bash
-# We want to combine these parts into a single file, e.g., radchar-medium.h5
-radchar-medium.h5.tar.gz.part-1-of-2
-radchar-medium.h5.tar.gz.part-2-of-2
-```
-
-Run the following commands once the individual parts have been downloaded to a local directory:
-
-```bash
-# Combine the individual parts into a single .tar.gz archive
-cat radchar-medium.h5.tar.gz.part-* > radchar-medium.h5.tar.gz
-
-# Unpack the .tar.gz archive to retrieve the dataset
-tar -xzf radchar-medium.h5.tar.gz
-```
+> Note, `RadChar-Tiny` is a subset of `RadChar-Small`, while `RadChar-Small` is a subset of `RadChar-Baseline`, etc. It is recommended a train-val-test split should be created from a single RadChar dataset (e.g., `RadChar-Baseline`) to support model development.
 
 ## Citation
 
-The RadChar dataset is published together with the conference paper titled [Multi-task Learning for Radar Signal Characterisation](https://arxiv.org/abs/2306.13105v2) at the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023). Please cite both the dataset and the conference paper if you find them helpful for your research.
+The RadChar dataset is published together with the conference paper titled [Multi-task Learning for Radar Signal Characterisation](https://arxiv.org/abs/2306.13105v2) at the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2023). 
+
+💡 Please cite both the dataset and the conference paper if you find them helpful for your research. Cheers.
 
 ```latex
-@INPROCEEDINGS{10193318,
-  author={Huang, Zi and Pemasiri, Akila and Denman, Simon and Fookes, Clinton and Martin, Terrence},
-  booktitle={2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW)}, 
-  title={Multi-Task Learning For Radar Signal Characterisation}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-5},
-  doi={10.1109/ICASSPW59220.2023.10193318}
+@inproceedings{huang2023radchar,
+  author    = {Zi Huang and Akila Pemasiri and Simon Denman and Clinton Fookes and Terrence Martin},
+  title     = {Multi-Task Learning for Radar Signal Characterisation},
+  booktitle = {Proceedings of the 2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW)},
+  year      = {2023},
+  pages     = {1--5},
+  doi       = {10.1109/ICASSPW59220.2023.10193318},
+  keywords  = {Modulation, Radar, Speech recognition, Benchmark testing, Multitasking, Transformers, Task analysis, Multi-task learning, Radio signal recognition, Radar signal characterisation, Automatic modulation classification, Radar dataset, Transformer}
 }
 ```
